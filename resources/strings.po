@@ -20359,7 +20359,7 @@ msgstr "DV VS10-Zielmodus für HDR10-Inhalte."
 #: system/settings/settings.xml
 msgctxt "#50057"
 msgid "For HDR10+ (HDR10 data only)"
-msgstr "Für HDR10+ (nur HDR10-Daten)"
+msgstr "HDR10+ (nur HDR10-Daten)"
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
