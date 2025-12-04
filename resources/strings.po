@@ -20171,13 +20171,13 @@ msgstr "Dolby Vision"
 #: system/settings/settings.xml
 msgctxt "#50011"
 msgid "Mode"
-msgstr "Modus"
+msgstr "DV-Modus"
 
 #. "Dolby Vision"
 #: system/settings/settings.xml
 msgctxt "#50012"
 msgid "Switch On Dolby Vision always, On demand or switch Off"
-msgstr "Dolby Vision auf (Ein), (Bei Bedarf) oder (Aus)"
+msgstr "Es kann für Dolby Vision zwischen (Ein), (On Demand) oder (Aus) gewählt werden."
 
 #. "Dolby Vision"
 #: system/settings/settings.xml
@@ -20189,7 +20189,7 @@ msgstr "Ein"
 #: system/settings/settings.xml
 msgctxt "#50014"
 msgid "On demand"
-msgstr "Bei Bedarf"
+msgstr "On Demand"
 
 #. "Dolby Vision"
 #: system/settings/settings.xml
@@ -20219,25 +20219,25 @@ msgstr "Typ"
 #: system/settings/settings.xml
 msgctxt "#50022"
 msgid "Type of Dolby Vision to use with display."
-msgstr "Dolby Vision (Typ) für die Anzeige."
+msgstr "Dolby Vision-Typ für das Display."
 
 #. "Dolby Vision Type"
 #: system/settings/settings.xml
 msgctxt "#50023"
 msgid "Display Led (DV-Std)"
-msgstr "Display-LED (DV-Std)"
+msgstr "Display Led (DV-Standard)"
 
 #. "Dolby Vision Type"
 #: system/settings/settings.xml
 msgctxt "#50024"
 msgid "Player Led (DV-LL)"
-msgstr "Player-LED (DV-LL)"
+msgstr "Player Led (DV-LL)"
 
 #. "Dolby Vision Type"
 #: system/settings/settings.xml
 msgctxt "#50025"
 msgid "Player Led (HDR)"
-msgstr "Player-LED (HDR)"
+msgstr "Player Led (HDR)"
 
 #. "Dolby Vision Type"
 #: system/settings/settings.xml
@@ -20285,7 +20285,7 @@ msgstr "Farbraum, der bei Display-LED Dolby Vision an das Display gesendet wird.
 #: system/settings/settings.xml
 msgctxt "#50043"
 msgid "as per AMLogic"
-msgstr "Gemäß AMLogic"
+msgstr "AMLogic"
 
 #. "Dolby Vision Display Led Colorimetry"
 #: system/settings/settings.xml
@@ -20303,19 +20303,19 @@ msgstr "Deaktivieren/Entfernen"
 #: system/settings/settings.xml
 msgctxt "#50051"
 msgid "For SDR8"
-msgstr "Für SDR8"
+msgstr "SDR8"
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
 msgctxt "#50052"
 msgid "Dolby Vision VS10 target mode for SDR8 content."
-msgstr "Dolby-Vision-VS10-Zielmodus für SDR8-Inhalte."
+msgstr "DV VS10-Zielmodus für SDR8-Inhalte."
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
 msgctxt "#50053"
 msgid "For SDR10"
-msgstr "Für SDR10"
+msgstr "SDR10"
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
@@ -20327,13 +20327,13 @@ msgstr "DV VS10-Zielmodus für SDR10-Inhalte."
 #: system/settings/settings.xml
 msgctxt "#50055"
 msgid "For HDR10"
-msgstr "Für HDR10"
+msgstr "HDR10"
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
 msgctxt "#50056"
 msgid "Dolby Vision VS10 target mode for HDR10 content."
-msgstr "Dolby-Vision-VS10-Zielmodus für HDR10-Inhalte."
+msgstr "DV VS10-Zielmodus für HDR10-Inhalte."
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
@@ -20351,7 +20351,7 @@ msgstr "DV VS10 Zielmodus für HDR10+-Inhalte (ohne Nutzung der dynamischen HDR1
 #: system/settings/settings.xml
 msgctxt "#50059"
 msgid "For HLG HDR"
-msgstr "Für HLG-HDR"
+msgstr "HLG-HDR"
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
@@ -20363,7 +20363,7 @@ msgstr "DV VS10 Zielmodus für HLG-HDR-Inhalte (von VS10 als SDR verarbeitet)."
 #: system/settings/settings.xml
 msgctxt "#50061"
 msgid "For Dolby Vision"
-msgstr "Für Dolby Vision"
+msgstr "Dolby Vision"
 
 #. "Dolby Vision VS10"
 #: system/settings/settings.xml
@@ -20543,13 +20543,13 @@ msgstr "Wenn Dolby Vision und HDR10+ gleichzeitig vorhanden sind, die Konvertier
 #: system/settings/settings.xml
 msgctxt "#50131"
 msgid "Preferred HDR for dual Dolby Vision and HDR10+ content"
-msgstr "Bevorzugte Variante bei dualem Inhalt (Dolby Vision und HDR10+)"
+msgstr "Bevorzugtes HDR bei Dolby Vision & HDR10+"
 
 #. "Dolby Vision HDR10+"
 #: system/settings/settings.xml
 msgctxt "#50132"
 msgid "When Dolby Vision and HDR10+ are both present, which HDR to prefer."
-msgstr "Wenn Dolby Vision und HDR10+ gleichzeitig vorhanden sind, was bevorzugt wird."
+msgstr "Wenn sowohl Dolby Vision als auch HDR10+ vorliegen, welches HDR bevorzugt werden soll."
 
 #. "Dolby Vision HDR10+"
 #: system/settings/settings.xml
@@ -20567,13 +20567,13 @@ msgstr "HDR10+"
 #: system/settings/settings.xml
 msgctxt "#50150"
 msgid "Source levels metadata"
-msgstr "Quelle-Level-Metadaten"
+msgstr "Quellpegel-Metadaten"
 
 #. "Dolby Vision Display Led Source Levels Metadata"
 #: system/settings/settings.xml
 msgctxt "#50151"
 msgid "When using Display Led (DV-Std), send the source's levels Metadata, otherwise send then Dolby Vision engines altered levels metadata to the display."
-msgstr "Bei Verwendung von Display-LED (DV-Std) die Pegelmetadaten der Quelle senden, andernfalls die vom Dolby-Vision-Engine angepassten Pegelmetadaten an das Display senden."
+msgstr "Bei Verwendung von Display Led (DV-Standard) die Pegelmetadaten der Quelle senden, andernfalls die vom Dolby-Vision-Engine angepassten Pegelmetadaten an das Display senden."
 
 #. "Dolby Vision Display Led Level 5 Handling"
 #: system/settings/settings.xml
@@ -20585,7 +20585,7 @@ msgstr "Level 5"
 #: system/settings/settings.xml
 msgctxt "#50161"
 msgid "When using Display Led (DV-Std) and sending the source's level 5 metadata to the diplay, choose how to handle the metadata."
-msgstr "Bei Verwendung von Display-LED (DV-Std) und Senden der Level-5-Metadaten der Quelle festlegen, wie die Metadaten verarbeitet werden."
+msgstr "Bei Verwendung von Display Led (DV-Standard) und Senden der Level-5-Metadaten der Quelle festlegen, wie die Metadaten verarbeitet werden."
 
 #. "Dolby Vision Display Led Level 5 Handling"
 #: system/settings/settings.xml
@@ -20627,7 +20627,7 @@ msgstr "Level 6"
 #: system/settings/settings.xml
 msgctxt "#50181"
 msgid "When using Display Led (DV-Std) and sending the source's level 6 metadata to the diplay, choose how to handle the metadata."
-msgstr "Bei Verwendung von Display-LED (DV-Std) und Senden der Level-6-Metadaten der Quelle festlegen, wie die Metadaten verarbeitet werden."
+msgstr "Bei Verwendung von Display Led (DV-Standard) und Senden der Level-6-Metadaten der Quelle festlegen, wie die Metadaten verarbeitet werden."
 
 #. "Dolby Vision Display Led Restrict Overlays"
 #: system/settings/settings.xml
@@ -20639,7 +20639,7 @@ msgstr "Overlays einschränken"
 #: system/settings/settings.xml
 msgctxt "#50191"
 msgid "When using Display Led (DV-Std) should overlays be restricted to the active area only."
-msgstr "Bei Verwendung von Display-LED (DV-Std) Overlays nur auf den aktiven Bereich beschränken."
+msgstr "Bei Verwendung von Display Led (DV-Standard) Overlays nur auf den aktiven Bereich beschränken."
 
 #. "Dolby Vision Display LL Dolby VSVDB Limit"
 #: system/settings/settings.xml
