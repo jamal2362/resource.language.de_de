@@ -7137,7 +7137,112 @@ msgctxt "#14277"
 msgid "Allow remote control from applications on other systems"
 msgstr "Fernsteuerung durch auf anderen Systemen befindlichen Anwendungen zulassen"
 
-# empty strings from id 14278 to 14279
+#: system/settings/settings.xml
+msgctxt "#14278"
+msgid "CoreELEC"
+msgstr "CoreELEC"
+
+#: system/settings/settings.xml
+msgctxt "#14279"
+msgid "This category contains settings added for CoreELEC."
+msgstr "Diese Kategorie enthält speziell für CoreELEC hinzugefügte Einstellungen."
+
+#: system/settings/settings.xml
+msgctxt "#14280"
+msgid "Disable noise reduction"
+msgstr "Rauschunterdrückung deaktivieren"
+
+#: system/settings/settings.xml
+msgctxt "#14281"
+msgid "Enable this to disable noise reduction. Requires reboot."
+msgstr "Aktivieren, um die Rauschunterdrückung zu deaktivieren. Neustart erforderlich."
+
+#: system/settings/settings.xml
+msgctxt "#14282"
+msgid "Tone map SDR to HDR"
+msgstr "SDR nach HDR (Tonemapping)"
+
+#: system/settings/settings.xml
+msgctxt "#14283"
+msgid "Intended for HDR enabled displays - not recommended. Turn this On to have HDR mode always on. GUI and SDR content will be tone mapped. Requires reboot."
+msgstr "Für HDR-fähige Displays gedacht – nicht empfohlen. Bei Aktivierung ist der HDR-Modus dauerhaft eingeschaltet. GUI und SDR-Inhalte werden tonemapped. Neustart erforderlich."
+
+#: system/settings/settings.xml
+msgctxt "#14284"
+msgid "Tone map HDR to SDR"
+msgstr "HDR nach SDR (Tonemapping)"
+
+#: system/settings/settings.xml
+msgctxt "#14285"
+msgid "Intended for SDR displays. Turn this On to have HDR content tone mapped to SDR. This improves color saturation and contrast of HDR content on SDR displays. Requires reboot."
+msgstr "Für SDR-Displays gedacht. Bei Aktivierung werden HDR-Inhalte nach SDR tonemapped. Dies verbessert Farbsättigung und Kontrast von HDR-Inhalten auf SDR-Displays. Neustart erforderlich."
+
+#: system/settings/settings.xml
+msgctxt "#14286"
+msgid "Force display colour depth"
+msgstr "Farbtiefe des Displays erzwingen"
+
+#: system/settings/settings.xml
+msgctxt "#14287"
+msgid "Force display colour depth to set value if display mode does support it. Requires resolution change to get active."
+msgstr "Farbtiefe des Displays auf den eingestellten Wert erzwingen, sofern der Anzeigemodus dies unterstützt. Eine Auflösungsänderung ist zur Aktivierung erforderlich."
+
+#: system/settings/settings.xml
+msgctxt "#14288"
+msgid "Force colour subsampling"
+msgstr "Farbsampling erzwingen"
+
+#: system/settings/settings.xml
+msgctxt "#14289"
+msgid "Force colour subsampling to set value. Requires resolution change to get active."
+msgstr "Farbsampling auf den eingestellten Wert erzwingen. Eine Auflösungsänderung ist zur Aktivierung erforderlich."
+
+#: system/settings/settings.xml
+msgctxt "#14290"
+msgid "Disable GUI scaling"
+msgstr "GUI-Skalierung deaktivieren"
+
+#: system/settings/settings.xml
+msgctxt "#14291"
+msgid "For optimal performance across all devices, the GUI is rendered at 1080P and scaled to 4K by default, this option disables that scaling and renders the GUI at 4K. This can make thumbnails and other textures sharper, however some devices may have issues with this option being set. Requires reboot."
+msgstr "Für optimale Leistung auf allen Geräten wird die GUI standardmäßig in 1080p gerendert und auf 4K skaliert. Diese Option deaktiviert diese Skalierung und rendert die GUI direkt in 4K. Dadurch können Vorschaubilder und andere Texturen schärfer wirken, jedoch können bei einigen Geräten Probleme auftreten. Neustart erforderlich."
+
+#. Force colour subsampling
+#: system/settings/settings.xml
+msgctxt "#14292"
+msgid "RGB"
+msgstr "RGB"
+
+#. Force colour subsampling
+#: system/settings/settings.xml
+msgctxt "#14293"
+msgid "4:2:0"
+msgstr "4:2:0"
+
+#. Force colour subsampling
+#: system/settings/settings.xml
+msgctxt "#14294"
+msgid "4:2:2"
+msgstr "4:2:2"
+
+#. Force colour subsampling
+#: system/settings/settings.xml
+msgctxt "#14295"
+msgid "4:4:4"
+msgstr "4:4:4"
+
+#: system/settings/settings.xml
+msgctxt "#14296"
+msgid "Disable Dolby Vision support"
+msgstr "Dolby Vision-Unterstützung deaktivieren"
+
+#: system/settings/settings.xml
+msgctxt "#14297"
+msgid "Use this option to disable Dolby Vision support if available."
+msgstr "Diese Option verwenden, um die Dolby Vision-Unterstützung zu deaktivieren, sofern verfügbar."
+
+# empty strings from id 14298 to 14300
+
 msgctxt "#14280"
 msgid "Maintenance"
 msgstr "Wartung"
@@ -7169,6 +7274,41 @@ msgstr "Aktualisierungen"
 msgctxt "#14304"
 msgid "RDS Radio"
 msgstr "RDS-Radio"
+
+#empty strings from id 14305 to 14423
+
+#: system/settings/settings.xml
+msgctxt "#14424"
+msgid "Dolby Vision Led mode"
+msgstr "Dolby Vision LED-Modus"
+
+#: system/settings/settings.xml
+msgctxt "#14425"
+msgid "Choose TV-Led (RGB 4:4:4) or Player-Led (YCbCr 4:2:2) mode for Dolby Vision."
+msgstr "TV-LED (RGB 4:4:4) oder Player-LED Modus (YCbCr 4:2:2) für Dolby Vision auswählen."
+
+#: system/settings/settings.xml
+msgctxt "#14426"
+msgid "TV-Led"
+msgstr "TV-LED"
+
+msgctxt "#14427"
+msgid "Player-Led"
+msgstr "Player-LED"
+
+#. Title of Dolby Vision level 5 metadata zero override setting
+#: system/settings/settings.xml
+msgctxt "#14428"
+msgid "Override level 5 metadata to zero"
+msgstr "Level-5-Metadaten auf Null überschreiben"
+
+#. Help text for setting "Dolby Vision: Override level 5 metadata to zero" of label #39202
+#: system/settings/settings.xml
+msgctxt "#14429"
+msgid "If enabled, Dolby Vision files will have level 5 (active area) metadata overridden to zero offsets. Enable if your TV has issues with incorrectly cropped image in Dolby Vision playback."
+msgstr "Bei Aktivierung werden die Level-5-Metadaten (aktiver Bereich) von Dolby Vision-Dateien auf Null-Offsets überschrieben. Aktivieren, wenn es bei der Dolby-Vision-Wiedergabe zu falsch beschnittenen Bildern auf dem TV kommt."
+
+#empty strings from id 14430 to 15010
 
 msgctxt "#15011"
 msgid "{0:d} Items failed to export"
@@ -14476,25 +14616,29 @@ msgctxt "#34113"
 msgid "To keep certain AVRs powered we send an inaudible random noise signal. You can disable this setting if you are using headphone or analog output."
 msgstr "Ein unhörbares Signal senden, um bestimmte AV-Receiver am selbständigen Ausschalten zu hindern. Diese Einstellung kann abgeschaltet werden, wenn Kopfhörer oder ein analoger Tonausgang verwendet werden."
 
-#. Indicates if Audio Engine should include lfe when downmixing
+#. Display colour depth limit
+#: system/settings/settings.xml
 msgctxt "#34114"
-msgid "Include LFE when downmixing"
-msgstr "Beim Heruntermischen LFE berücksichtigen"
+msgid "8 bits"
+msgstr "8 bits"
 
-#. Description of setting with label #34114 "Include LFE when downmixing"
+#. Display colour depth limit
+#: system/settings/settings.xml
 msgctxt "#34115"
-msgid "If enabled, this setting will include lfe channel into the mixing when there is no dedicated LFE output channel available. This only makes sense for full range speakers."
-msgstr "Wenn aktiviert, wird der LFE-Kanal beim Mischen berücksichtigt, falls kein dedizierter LFE-Ausgabekanal verfügbar ist. Nur sinnvoll für Fullrange-Lautsprecher."
+msgid "10 bits"
+msgstr "10 bits"
 
-#. Description of setting with label #34114 "Include LFE when downmixing"
+#. Display colour depth limit
+#: system/settings/settings.xml
 msgctxt "#34116"
-msgid "Off"
-msgstr "Aus"
+msgid "12 bits"
+msgstr "12 bits"
 
-#. Description of setting with label #34114 "Include LFE when downmixing"
+#. Display colour depth limit
+#: system/settings/settings.xml
 msgctxt "#34117"
-msgid "50%"
-msgstr "50 %"
+msgid "16 bits"
+msgstr "16 bits"
 
 #. Description of setting with label #34114 "Include LFE when downmixing"
 msgctxt "#34118"
@@ -15513,8 +15657,8 @@ msgid "Switch source to this device on startup"
 msgstr "Beim Starten Kodi als aktive Quelle melden"
 
 msgctxt "#36021"
-msgid "Physical address (overrules HDMI port)"
-msgstr "Physikalische Adresse (verwirft HDMI-Port)"
+msgid "Physical address"
+msgstr "Physikalische Adresse"
 
 msgctxt "#36023"
 msgid "Configuration updated"
@@ -15650,7 +15794,38 @@ msgctxt "#36053"
 msgid "Tuner Device"
 msgstr "Tunergerät"
 
-# empty strings from id 36054 to 36095
+#: system/peripherals.xml
+msgctxt "#36054"
+msgid "Minutes standby is delayed after Screensaver is activated"
+msgstr "Minuten, um die der Standby nach Aktivierung des Bildschirmschoners verzögert wird"
+
+#: system/peripherals.xml
+msgctxt "#36055"
+msgid "Put devices in standby by Screensaver on paused video"
+msgstr "Geräte bei pausiertem Video durch den Bildschirmschoner in den Standby versetzen"
+
+#: system/peripherals.xml
+msgctxt "#36056"
+msgid "OSD name"
+msgstr "OSD-Name"
+
+#: system/peripherals.xml
+msgctxt "#36057"
+msgid "Wake-Up by auto power on"
+msgstr "Aufwecken durch automatisches Einschalten"
+
+#: system/peripherals.xml
+msgctxt "#36058"
+msgid "Wake-Up by streaming path/routing change"
+msgstr "Aufwecken durch Änderung des Streaming-Pfads/Routings"
+
+#: system/peripherals.xml
+msgctxt "#36059"
+msgid "Wake-Up by active route"
+msgstr "Aufwecken durch aktive Route"
+
+# empty strings from id 36060 to 36095
+
 #. Label of setting "System / Display / Use system HDR/SDR brightness balance"
 msgctxt "#36096"
 msgid "Use system HDR/SDR brightness balance"
@@ -17275,6 +17450,12 @@ msgctxt "#36439"
 msgid "Enable automatic playback of the next programme when playing past programmes (catchup) or for Video On Demand (VOD) channels. Please note that catchup and VOD only work if supported by the channel provider."
 msgstr "Automatische Wiedergabe der nächsten Sendung bei der Wiedergabe von vergangenen Sendungen (Catchup) oder Video-on-Demand-Sendern (VOD) aktivieren. Bitte beachten, dass Catchup und VOD nur funktioniert, wenn vom Senderanbieter unterstützt."
 
+#. Description of setting with label #13438 "Allow hardware acceleration (amcodec)"
+#: system/settings/settings.xml
+msgctxt "#36440"
+msgid "Enable hardware video decode using Amlogic decoder."
+msgstr "Hardware-Videodekodierung mit dem AMLogic-Decoder aktivieren."
+
 #. Description of setting "System -> Audio output -> Volume control steps" with label #1302
 msgctxt "#36442"
 msgid "Set the number of volume control steps."
@@ -17294,6 +17475,18 @@ msgstr "Auswählen, um 3:2-Pulldown-Bildwiederholraten zu erlauben (Wiedergabe v
 msgctxt "#36445"
 msgid "Select this option to allow using double refresh rates (playing 29.97 FPS video on a 59.94 Hz monitor or playing 30 FPS video on a 60 Hz monitor). You may want to use this option if your monitor doesn't have a 29.97 Hz or 30 Hz mode."
 msgstr "Auswählen, um verdoppelte Bildwiederholraten zu erlauben (Wiedergabe von 29,97-FPS-Videos auf einem 59,94-Hz-Bildschirm oder 30-FPS-Videos auf einem 60-Hz-Bildschirm). Einstellung kann hilfreich sein, wenn der Bildschirm keine 29,97-Hz- oder 30-Hz-Modi unterstützt."
+
+msgctxt "#36457"
+msgid "Include LFE in stereo downmix"
+msgstr "LFE in Stereo-Downmix einbeziehen"
+
+msgctxt "#36458"
+msgid "Include low frequency effects channel in stereo downmix. 100% - Full LFE volume. 10% to 90% - reduced LFE volume. 0% - LFE excluded from stereo downmix. Note: To avoid damaging your speakers only enable LFE downmix if your speakers can handle very low bass frequencies."
+msgstr "LFE Kanal in den Stereo-Downmix einbeziehen. 100 % – volle LFE-Lautstärke. 10 % bis 90 % – reduzierte LFE-Lautstärke. 0 % – LFE wird nicht in den Stereo-Downmix einbezogen. Hinweis: Um Schäden an den Lautsprechern zu vermeiden, den LFE-Downmix nur aktivieren, wenn die Lautsprecher sehr tiefe Bassfrequenzen verarbeiten können."
+
+msgctxt "#36459"
+msgid "{0} %"
+msgstr "{0} %"
 
 #. Description of settings with label #14112 "Enable event logging"
 msgctxt "#36460"
@@ -18343,6 +18536,21 @@ msgctxt "#37133"
 msgid "Limits the maximum memory usage for the video queue. The amount of memory used depends on the video bitrate and the length of the queue. If the memory limit is reached, the queue time is reduced as necessary."
 msgstr "Begrenzt den maximalen Speicherverbrauch für die Video-Queue. Die verwendete Speichermenge hängt von der Video-Bitrate und der Länge der Queue ab. Wenn das Speicherlimit erreicht ist, wird die Queue-Zeit verringert, falls nötig."
 
+#: system/settings/settings.xml
+msgctxt "#38007"
+msgid "Boost centre channel when downmixing"
+msgstr "Center-Kanal beim Downmix verstärken"
+
+#: system/settings/settings.xml
+msgctxt "#38008"
+msgid "Increase this value to make the dialogue louder compared to background sounds when downmixing multichannel audio"
+msgstr "Diesen Wert erhöhen, um beim Downmix von Mehrkanalton die Dialoge gegenüber den Hintergrundgeräuschen lauter zu machen"
+
+#: system/settings/settings.xml
+msgctxt "#38009"
+msgid "{0} dB"
+msgstr "{0} dB"
+
 #. Setting #38011 "Show All Items entry"
 msgctxt "#38011"
 msgid "Show \"All items\" entry"
@@ -18873,6 +19081,26 @@ msgctxt "#38354"
 msgid "Unable to read xml file"
 msgstr "XML-Datei kann nicht gelesen werden"
 
+#: system/settings/settings.xml
+msgctxt "#39000"
+msgid "HD and up"
+msgstr "HD und höher"
+
+#: system/settings/settings.xml
+msgctxt "#39001"
+msgid "Accelerate MPEG2"
+msgstr "MPEG2 beschleunigen"
+
+#: system/settings/settings.xml
+msgctxt "#39002"
+msgid "Accelerate MPEG4"
+msgstr "MPEG4 beschleunigen"
+
+#: system/settings/settings.xml
+msgctxt "#39003"
+msgid "Accelerate h264"
+msgstr "H.264 beschleunigen"
+
 #. Description of category "Library" with label #14202
 msgctxt "#39004"
 msgid "This category provides access to the windows for source management and library management facilities"
@@ -18998,6 +19226,16 @@ msgstr "Quelle"
 msgctxt "#39031"
 msgid "Sources"
 msgstr "Quellen"
+
+#: system/settings/settings.xml
+msgctxt "#39032"
+msgid "Accelerate VC1"
+msgstr "VC-1 beschleunigen"
+
+#: system/settings/settings.xml
+msgctxt "#39033"
+msgid "Exclude 24p"
+msgstr "24p ausschließen"
 
 msgctxt "#39100"
 msgid "Perform on startup"
