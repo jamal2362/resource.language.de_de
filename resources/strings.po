@@ -19683,14 +19683,16 @@ msgid "Enable this option for the best picture quality. Disabling reduces the lo
 msgstr "Diese Option für beste Bildqualität aktivieren. Deaktivieren verringert die Belastung von Systemen mit eingeschränkten Ressourcen."
 
 #. Title of Dolby Vision RPU conversion setting
+#: system/settings/settings.xml
 msgctxt "#39196"
-msgid "Dolby Vision compatibility mode"
-msgstr "Dolby Vision-Kompatibilitätsmodus"
+msgid "Convert profile 7"
+msgstr "Profil 7 konvertieren"
 
 #. Help text for setting "Convert Dolby Vision for compatibility" of label #39196
+#: system/settings/settings.xml
 msgctxt "#39197"
-msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
-msgstr "Wenn aktiviert, wird das Dolby Vision-Profil 7 konvertiert zu Profil 8.1, welches von mehr Geräten unterstützt wird. Aktivieren, wenn das Gerät Dolby Vision unterstützt, es aber Probleme mit einigen Videos gibt."
+msgid "Convert Dolby Vision profile 7 to profile 7 MEL or profile 8.1"
+msgstr "Dolby Vision Profil 7 in Profil 7 MEL oder Profil 8.1 konvertieren."
 
 #. Title of "Allowed HDR dynamic metadata formats" setting
 msgctxt "#39198"
@@ -19746,6 +19748,24 @@ msgstr "Starfish-Decoder verwenden"
 msgctxt "#39208"
 msgid "Starfish is the hardware video decoder for LG's webOS. Disable it for troubleshooting or testing."
 msgstr "Starfish ist der Hardwarevideodecoder für LGs webOS. Bei Problemen oder für Testzwecke deaktivieren."
+
+#. Dolby Vision RPU Conversion
+#: system/settings/settings.xml
+msgctxt "#39300"
+msgid "off"
+msgstr "Aus"
+
+#. Dolby Vision RPU Conversion
+#: system/settings/settings.xml
+msgctxt "#39301"
+msgid "to MEL"
+msgstr "MEL"
+
+#. Dolby Vision RPU Conversion
+#: system/settings/settings.xml
+msgctxt "#39302"
+msgid "to profile 8.1"
+msgstr "Profile 8.1"
 
 # 40000 to 40800 are reserved for Video Versions feature
 #. Generic video versions label (plural)
@@ -20477,13 +20497,13 @@ msgstr "HDR-InfoFrame-Payload. Eine 48-stellige hexadezimale Zeichenfolge zur Fe
 #: system/settings/settings.xml
 msgctxt "#50101"
 msgid "Dynamic HDR10+ to Dolby Vision profile 8.1 conversion"
-msgstr "Dynamische HDR10+ zu Dolby Vision Profil 8.1 Konvertierung"
+msgstr "Dynamische HDR10+ zu Dolby Vision Profil 8.1-Konvertierung"
 
 #. "Dolby Vision HDR10+"
 #: system/settings/settings.xml
 msgctxt "#50102"
 msgid "Dynamically convert HDR10+ to Dolby Vision profile 8.1 on playback. (port from dovi_tool Aug. 2024)"
-msgstr "HDR10+ bei der Wiedergabe dynamisch in Dolby Vision Profil 8.1 umwandeln (Port von dovi_tool, August 2024)"
+msgstr "HDR10+ bei der Wiedergabe dynamisch in Dolby Vision Profil 8.1 umwandeln (Port von dovi_tool, August 2024)."
 
 #. "Dolby Vision HDR10+"
 #: system/settings/settings.xml
@@ -20495,7 +20515,7 @@ msgstr "Quelle der Spitzenhelligkeit"
 #: system/settings/settings.xml
 msgctxt "#50104"
 msgid "Source for Peak Brightness when converting from HDR10+ to Dolby Vision profile 8.1. (port from dovi_tool Aug. 2024)"
-msgstr "Quelle für die Spitzenhelligkeit bei der Umwandlung von HDR10+ in Dolby Vision Profil 8.1 (Port von dovi_tool, August 2024)"
+msgstr "Quelle für die Spitzenhelligkeit bei der Umwandlung von HDR10+ in Dolby Vision Profil 8.1 (Port von dovi_tool, August 2024)."
 
 #. "Dolby Vision HDR10+"
 #: system/settings/settings.xml
