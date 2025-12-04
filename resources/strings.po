@@ -509,8 +509,8 @@ msgid "Current:"
 msgstr "Aktuell:"
 
 msgctxt "#144"
-msgid "Build:"
-msgstr "Version:"
+msgid "Build"
+msgstr "Version"
 
 msgctxt "#145"
 msgid "Network:"
@@ -625,8 +625,8 @@ msgid "Display 4:3 videos as"
 msgstr "4:3-Videoanzeigemethode"
 
 msgctxt "#174"
-msgid "Compiled:"
-msgstr "Kompiliert:"
+msgid "Compiled"
+msgstr "Kompiliert"
 
 msgctxt "#175"
 msgid "Moods"
@@ -5097,8 +5097,8 @@ msgid "Total uptime"
 msgstr "Gesamtbetriebszeit"
 
 msgctxt "#12395"
-msgid "Battery level"
-msgstr "Ladestand der Batterie"
+msgid "Linux version"
+msgstr "Linux-Version"
 
 #. Label of button in the System Info screen asking for donations. "Thank you!" is used to convey gratitude to the users of our beloved software.
 msgctxt "#12396"
@@ -6084,8 +6084,8 @@ msgid "Prefer VDPAU video mixer"
 msgstr "VDPAU-Videomixer bevorzugen"
 
 msgctxt "#13438"
-msgid "Allow hardware acceleration with DRM PRIME"
-msgstr "Hardware-Beschleunigung erlauben - DRM PRIME"
+msgid "Allow hardware acceleration - amcodec"
+msgstr "Hardware-Beschleunigung erlauben - AMCodec"
 
 msgctxt "#13439"
 msgid "Allow hardware acceleration - MediaCodec"
