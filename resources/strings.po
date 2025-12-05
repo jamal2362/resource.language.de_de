@@ -19222,7 +19222,7 @@ msgstr "DV-LL Schwarz-Clipping-/Pegelkorrektur"
 
 msgctxt "#60571"
 msgid "Set DV-LL Black Clipping/Level Correction. Off - No Correction = standard DV-LL Black Clipping at ~72 and Black Level at 64. Clipping Correction = Correction for Black Clipping to ~68 but raising Black Level to ~68. Balanced Correction = Correction for Black Clipping to ~68 and reducing the Black Level back to 64."
-msgstr "DV-LL Schwarz-Clipping-/Pegelkorrektur.[CR]Aus: Standardmäßiges DV-LL-Schwarz-Clipping bei ca. 72 und Schwarzwert bei 64.[CR]Clipping-Korrektur: Korrektur des Schwarz-Clippings auf ca. 68 bei gleichzeitiger Anhebung des Schwarzwerts auf ca. 68.[CR]Ausgewogene-Korrektur: Korrektur des Schwarz-Clippings auf ca. 68 und gleichzeitige Absenkung des Schwarzwerts zurück auf 64."
+msgstr "DV-LL Schwarz-Clipping-/Pegelkorrektur.[CR]Aus: Standardmäßiges DV-LL-Schwarz-Clipping bei ca. ~72 und Schwarzwert bei 64.[CR]Clipping-Korrektur: Korrektur des Schwarz-Clippings auf ca. ~68 bei gleichzeitiger Anhebung des Schwarzwerts auf ca. ~68.[CR]Ausgewogene-Korrektur: Korrektur des Schwarz-Clippings auf ca. ~68 und gleichzeitige Absenkung des Schwarzwerts zurück auf 64."
 
 msgctxt "#60572"
 msgid "Off - No Correction"
