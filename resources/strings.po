@@ -17804,11 +17804,11 @@ msgstr "Diese Option für beste Bildqualität aktivieren. Deaktivieren verringer
 
 msgctxt "#39196"
 msgid "Convert profile 7"
-msgstr "Profil 7 konvertieren"
+msgstr "DV Profil 7 umwandeln"
 
 msgctxt "#39197"
 msgid "Convert Dolby Vision profile 7 to profile 7 MEL or profile 8.1"
-msgstr "DV Profil 7 in \"MEL\" oder \"Profil 8.1\" konvertieren"
+msgstr "\"DV Profil 7 FEL\" in \"Profil 7 MEL\" oder \"Profil 8.1\" konvertieren."
 
 msgctxt "#39198"
 msgid "Allowed HDR dynamic metadata formats"
@@ -18230,7 +18230,7 @@ msgctxt "#40802"
 msgid "If enabled, a confirmation dialog will be displayed when files shall be deleted. If disabled, files will be deleted without user confirmation."
 msgstr "Wenn altiviert, wird ein Bestätigungsdialog angezeigt, wenn Dateien gelöscht werden sollen. Wenn dektiviert, werden Dateien ohne vorherige Nachfrage gelöscht."
 
-#. 50001 to 50211 are reserved for CPM
+#. 50001 to 59999 are reserved for CPM
 msgctxt "#50001"
 msgid "Dolby Vision"
 msgstr "Dolby Vision"
@@ -19335,6 +19335,26 @@ msgstr "2"
 msgctxt "#60599"
 msgid "3"
 msgstr "3"
+
+msgctxt "#69196"
+msgid "Convert DV Profile 7 FEL to MEL or to Profile 8.1"
+msgstr "DV Profil 7 umwandeln"
+
+msgctxt "#69197"
+msgid "Convert DV profile 7 FEL to MEL or to profile 8.1. Only use this setting if needed for audio sync issues with SoC S905X4. There is no need to use this setting with SoC S922X."
+msgstr "\"DV Profil 7 FEL\" in \"Profil 7 MEL\" oder \"Profil 8.1\" konvertieren. Diese Einstellung nur bei Bedarf verwenden, um Audio-Synchronisationsprobleme mit dem SoC S905X4 zu beheben. Mit dem SoC S922X ist diese Einstellung nicht erforderlich."
+
+msgctxt "#69300"
+msgid "Off"
+msgstr "Aus"
+
+msgctxt "#69301"
+msgid "to P7MEL"
+msgstr "MEL"
+
+msgctxt "#69302"
+msgid "to P8.1"
+msgstr "Profile 8.1"
 
 msgctxt "#69999"
 msgid "Enable this to disable noise reduction. Requires reboot. FOR BETTER VIDEO PROCESSING LEAVE THIS SETTING ENABLED (i.e., DISABLE NOISE REDUCTION)."
