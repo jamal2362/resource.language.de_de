@@ -18441,7 +18441,7 @@ msgstr "HDR-InfoFrame-Payload. Eine 48-stellige hexadezimale Zeichenfolge zur Fe
 
 msgctxt "#50101"
 msgid "Dynamic HDR10+ to Dolby Vision profile 8.1 conversion"
-msgstr "Dynamische HDR10+ zu Dolby Vision Profil 8.1-Konvertierung"
+msgstr "HDR10+ während der Wiedergabe in DV Profil 8.1 umwandeln"
 
 msgctxt "#50102"
 msgid "Dynamically convert HDR10+ to Dolby Vision profile 8.1 on playback. (port from dovi_tool Aug. 2024)"
@@ -18477,7 +18477,7 @@ msgstr "histogramm-plus"
 
 msgctxt "#50121"
 msgid "Prefer conversion over original Dolby Vision"
-msgstr "Konvertierung gegenüber originalem Dolby Vision bevorzugen"
+msgstr "Umwandlung von HDR10+ in DV gegenüber originalem DV"
 
 msgctxt "#50122"
 msgid "When Dolby Vision and HDR10+ are both present, prefer conversion from HDR10+ over using the original Dolby Vision, note any FEL will be discarded in this case."
@@ -18794,7 +18794,7 @@ msgstr "HDR-InfoFrame-Payload. Eine 48-stellige hexadezimale Zeichenfolge zur Fe
 
 msgctxt "#60101"
 msgid "Convert HDR10+ video to DV profile 8.1 during playback"
-msgstr "Dynamische HDR10+ zu Dolby Vision Profil 8.1-Konvertierung"
+msgstr "HDR10+ während der Wiedergabe in DV Profil 8.1 umwandeln"
 
 msgctxt "#60102"
 msgid "Set to On to dynamically convert HDR10+ video to DV profile 8.1 video during playback."
@@ -18830,7 +18830,7 @@ msgstr "histogram-plus"
 
 msgctxt "#60121"
 msgid "Choose HDR10+ conversion to DV instead of original DV video stream when both are present"
-msgstr "Konvertierung gegenüber originalem Dolby Vision bevorzugen"
+msgstr "Umwandlung von HDR10+ in DV gegenüber originalem DV"
 
 msgctxt "#60122"
 msgid "When both DV and HDR10+ video streams are present, choose conversion from HDR10+ video to DV over using the original DV video, note any FEL will be discarded in this case."
