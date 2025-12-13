@@ -19314,7 +19314,7 @@ msgstr "Nur Min. PQ 0"
 
 msgctxt "#60594"
 msgid "Set Type of Correction to Fix Audio Issues"
-msgstr "Korrekturtyp zur Behebung von Audio-Problemen"
+msgstr "Korrektur zur Behebung von Audioproblemen"
 
 msgctxt "#60595"
 msgid "Select what type of correction works in your setup to fix audio issues including seamless branching audio drop and audio sync issues. Try (1) first, if it does not work try (2). (3) is for debugging purposes."
@@ -19326,15 +19326,15 @@ msgstr "Aus"
 
 msgctxt "#60597"
 msgid "1"
-msgstr "1"
+msgstr "Variante 1"
 
 msgctxt "#60598"
 msgid "2"
-msgstr "2"
+msgstr "Variante 2"
 
 msgctxt "#60599"
 msgid "3"
-msgstr "3"
+msgstr "Debugging"
 
 msgctxt "#69196"
 msgid "Convert DV Profile 7 FEL to MEL or to Profile 8.1"
