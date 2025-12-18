@@ -13586,6 +13586,26 @@ msgctxt "#34130"
 msgid "384.0"
 msgstr "384,0"
 
+msgctxt "#34131"
+msgid "Include LFE when downmixing"
+msgstr "LFE beim Downmixen einbeziehen"
+
+msgctxt "#34132"
+msgid "If enabled, this setting will include lfe channel into the mixing when there is no dedicated LFE output channel available. This only makes sense for full range speakers."
+msgstr "Wenn diese Einstellung aktiviert ist, wird der LFE-Kanal in die Abmischung einbezogen, wenn kein dedizierter LFE-Ausgangskanal verfügbar ist. Dies ist nur für Vollbereichslautsprecher sinnvoll."
+
+msgctxt "#34133"
+msgid "Off"
+msgstr "Aus"
+
+msgctxt "#34134"
+msgid "50%"
+msgstr "50%"
+
+msgctxt "#34135"
+msgid "100%"
+msgstr "100%"
+
 msgctxt "#34201"
 msgid "Can't find a next item to play"
 msgstr "Kein weiterer Eintrag für die Wiedergabe gefunden"
@@ -16577,6 +16597,14 @@ msgstr "(Kommentare des Regisseurs)"
 msgctxt "#37002"
 msgid "(Director's comments 2)"
 msgstr "(Kommentare des Regisseurs 2)"
+
+msgctxt "#37003"
+msgid "mono"
+msgstr "Mono"
+
+msgctxt "#37004"
+msgid "stereo"
+msgstr "Stereo"
 
 msgctxt "#37014"
 msgid "Last used profile"
