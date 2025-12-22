@@ -18885,8 +18885,16 @@ msgid "Set DV Metadata Level 5 to original source instead of zero"
 msgstr "Level 5: Originale Quelle anstelle von (0) Null verwenden"
 
 msgctxt "#60151"
-msgid "Enable this setting to send the original source DV level 5 metadata to the display, otherwise zero is used for DV level 5 metadata values. ONLY ENABLE THIS SETTING IF YOUR DISPLAY CAN SUPPORT THIS FEATURE."
-msgstr "Ursprüngliche Level 5-Metadaten (Quelle) an das Display senden. Andernfalls wird für Level 5 der Metadatenwert 0 (Null) verwendet. Aktiviere diese Einstellung nur, wenn das Display diese Funktion unterstützt."
+msgid "Enable this setting to send the original Source DV level 5 metadata to the display, otherwise zero is used for DV level 5 metadata values."
+msgstr "Ursprüngliche Level 5-Metadaten (Quelle) an das Display senden. Andernfalls wird für Level 5 der Metadatenwert 0 (Null) verwendet."
+
+msgctxt "#60152"
+msgid "Enable this setting when using Level 5 as Source and the OSD/Subtitles are being hidden"
+msgstr "Level 5-Metadaten (Quelle) verwenden, wenn OSD/Untertitel ausgeblendet sind"
+
+msgctxt "#60153"
+msgid "This setting allows you to see the OSD or Subtitles when using Level 5 as Source and your display not displaying them correctly."
+msgstr "OSD/Untertitel können gesehen werden, wenn Level 5-Metadaten als Quelle verwendet werden."
 
 msgctxt "#60160"
 msgid "Set Level 5"
@@ -19342,27 +19350,35 @@ msgstr "Nur Min. PQ 0"
 
 msgctxt "#60594"
 msgid "Set Type of Correction to Fix Audio Issues"
-msgstr "Korrektur zur Behebung von Audioproblemen"
+msgstr "Audiokorrektur"
 
 msgctxt "#60595"
-msgid "Select what type of correction works in your setup to fix audio issues including seamless branching audio drop and audio sync issues. Try (1) first, if it does not work try (2). (3) is for debugging purposes."
-msgstr "Wähle die geeignete Korrekturmethode aus, um Audio-Probleme wie nahtlose Verzweigungen, Audioausfälle und Probleme mit der Audiosynchronisation zu beheben.[CR]Versuche zunächst (1). Wenn dies nicht funktioniert, versuche es mit (2).[CR](3) dient zu Debugging-Zwecken."
+msgid "Select the type of audio correction to fix seamless branching audio drop and audio sync issues. Different equipment will work better with different options, so try each option to see what works best for your setup."
+msgstr "Typ der Audiokorrektur auswählen, um Audioaussetzer bei nahtlosen Übergängen sowie Probleme mit der Audiosynchronisation zu beheben. Unterschiedliche Geräte reagieren unterschiedlich auf die einzelnen Optionen. Daher empfiehlt sich das Testen aller Optionen, um die am besten geeignete Einstellung für die jeweilige Konfiguration zu ermitteln."
 
 msgctxt "#60596"
 msgid "Off"
 msgstr "Aus"
 
 msgctxt "#60597"
-msgid "1"
-msgstr "Variante 1"
+msgid "Seek/Sync"
+msgstr "Seek/Sync"
 
 msgctxt "#60598"
 msgid "2"
 msgstr "Variante 2"
 
 msgctxt "#60599"
-msgid "3"
+msgid "Debug"
 msgstr "Debugging"
+
+msgctxt "#60600"
+msgid "LAV SB"
+msgstr "LAV (SB)"
+
+msgctxt "#60601"
+msgid "LAV Full"
+msgstr "LAV (Voll)"
 
 msgctxt "#69196"
 msgid "Convert DV Profile 7 FEL to MEL or to Profile 8.1"
